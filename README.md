@@ -72,17 +72,51 @@ Dealboard is a visual sales pipeline and CRM platform that automatically capture
 
 Everything profiled for Dealboard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dealboard/](https://apis.io/providers/dealboard/)** — or go straight to one of the APIs or properties below.
 
-### APIs (5)
+### APIs (10)
 
-- [Dealboard Boards API](https://apis.io/apis/dealboard/dealboard-boards-api/) — The Boards API from Dealboard — 1 operation(s) for boards.
-- [Dealboard Dealboard API](https://apis.io/apis/dealboard/dealboard-dealboard-api-api/) — The Dealboard API API from Dealboard — 2 operation(s) for dealboard api.
 - [Dealboard Deals API](https://apis.io/apis/dealboard/dealboard-deals-api/) — The Deals API from Dealboard — 1 operation(s) for deals.
 - [Dealboard Reports API](https://apis.io/apis/dealboard/dealboard-reports-api/) — The Reports API from Dealboard — 1 operation(s) for reports.
 - [Dealboard Templates API](https://apis.io/apis/dealboard/dealboard-templates-api/) — The Templates API from Dealboard — 1 operation(s) for templates.
+- [Dealboard Auth API](https://apis.io/apis/dealboard/dealboard-auth-api/) — The Auth API from Dealboard — 1 operation(s) for auth.
+- [Dealboard Boards API](https://apis.io/apis/dealboard/dealboard-boards-api/) — The Boards API from Dealboard — 3 operation(s) for boards.
+- [Dealboard Dealboard API](https://apis.io/apis/dealboard/dealboard-dealboard-api-api/) — The Dealboard API API from Dealboard — 2 operation(s) for dealboard api.
+- [Dealboard Leads API](https://apis.io/apis/dealboard/dealboard-leads-api/) — The Leads API from Dealboard — 3 operation(s) for leads.
+- [Dealboard Match API](https://apis.io/apis/dealboard/dealboard-match-api/) — The Match API from Dealboard — 1 operation(s) for match.
+- [Dealboard Notes API](https://apis.io/apis/dealboard/dealboard-notes-api/) — The Notes API from Dealboard — 3 operation(s) for notes.
+- [Dealboard Webhooks API](https://apis.io/apis/dealboard/dealboard-webhooks-api/) — The Webhooks API from Dealboard — 2 operation(s) for webhooks.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [dealboard-mcp.yml](https://apis.io/servers/dealboard/dealboard-mcp-yml/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dealboard Agentic Access](https://apis.io/agentic-access/dealboard/dealboard-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Deal](https://apis.io/schemas/dealboard/dealboard-deal/)
+- [Lead](https://apis.io/schemas/dealboard/dealboard-lead/)
+- [LeadEnrichment](https://apis.io/schemas/dealboard/dealboard-lead-enrichment/)
+- [Me](https://apis.io/schemas/dealboard/dealboard-me/)
+- [Note](https://apis.io/schemas/dealboard/dealboard-note/)
+- [Webhook](https://apis.io/schemas/dealboard/dealboard-webhook/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dealboard Context](https://apis.io/jsonld/dealboard/dealboard-context/)
 
 #### Governance rules (1)
 
@@ -90,10 +124,11 @@ Spectral rulesets for the provider's contracts.
 
 - [Dealboard API Rules](https://apis.io/rules/dealboard/dealboard-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Dealboard Authentication](https://apis.io/security/dealboard/dealboard-authentication/)
 - [Dealboard Domain Security](https://apis.io/security/dealboard/dealboard-domain-security/)
 
 #### Plans and pricing (1)
@@ -116,7 +151,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 34.3** — thin · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 34.3** — thin · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
@@ -127,7 +162,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Developer ergonomics | 26.2 |
 | Access clarity | 65.8 |
 
-**Agent readiness 31.7** — agent-ready
+**Agent readiness 33.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -150,6 +185,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
 
 **Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
 
